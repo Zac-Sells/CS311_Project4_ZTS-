@@ -1,0 +1,81 @@
+#Page{
+    display: grid;
+    grid-template-rows: [row-start] 100px [line1] 50px [line2] 100px [line3] 600px [line4] 90px [line5] 21px [row-end];
+    grid-template-columns: [start-col] 440px [left-col] 1110px [right-col] 340px [end-col];
+}
+#Heading{
+    background-color: lightslategray;
+    padding-left: 10px;
+    padding-top: 10px;
+    grid-row-start: row-start;
+    grid-row-end: line1;
+    grid-column-start: start-col;
+    grid-column-end: end-col;
+}
+#Menu{
+    background-color: rgb(189, 200, 211);
+    padding-left: 10px;
+    grid-row-start: line1;
+    grid-row-end: line2;
+    grid-column-start: start-col;
+    grid-column-end: end-col;
+}
+#MusicalImage{
+    background-color:rgb(204, 214, 224);
+    padding-left: 10px;
+    padding-top: 20px;
+    grid-row-start: line2;
+    grid-row-end: line5;
+    grid-column-start: start-col;
+    grid-column-end: left-col;
+}
+#Introduction{
+    padding: 15px;
+    background-color:rgb(204, 214, 224);
+    grid-row-start: line2;
+    grid-row-end: line5;
+    grid-column-start: left-col;
+    grid-column-end: end-col;
+}
+#Credits{
+    background-color: rgb(232, 238, 243);
+    padding-left: 10px;
+    grid-row-start: line5;
+    grid-row-end: row-end;
+    grid-column-start: start-col;
+    grid-column-end: end-col;
+}
+#Works{
+    background-color:rgb(204, 214, 224);
+    padding-left: 10px;
+ grid-row-start: line2;
+ grid-row-end: line5;
+ grid-column-start: start-col;
+ grid-column-end: left-col;
+}
+#ComposerName{
+    background-color:rgb(204, 214, 224);
+    font-size: xx-large;
+    grid-row-start: line2;
+    grid-row-end: line3;
+    grid-column-start: left-col;
+    grid-column-end: end-col;
+}
+#Biography{
+    background-color:rgb(204, 214, 224);
+    grid-row-start: line3;
+    grid-row-end: line5;
+    grid-column-start: left-col;
+    grid-column-end: right-col;
+}
+#ComposerPic{
+    background-color:rgb(204, 214, 224);
+    padding-left: 100px;
+    grid-row-start: line3;
+    grid-row-end: line5;
+    grid-column-start: right-col;
+    grid-column-end: end-col;
+}
+#Reflection{
+    padding: 20px;
+}
